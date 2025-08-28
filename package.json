@@ -1,0 +1,23 @@
+{
+  "name": "rex-industries-planner",
+  "version": "1.0.0",
+  "description": "A comprehensive workflow and production planner for Rex Industries.",
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --outfile=dist/bundle.js --jsx=automatic --loader:.tsx=tsx --platform=browser --format=esm",
+    "deploy": "npm run build && firebase deploy --only hosting"
+  },
+  "author": "Rex Industries",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@google/genai": "^0.14.0",
+    "firebase": "^10.12.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "esbuild": "^0.21.5"
+  }
+}

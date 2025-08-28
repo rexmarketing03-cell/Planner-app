@@ -1,0 +1,7 @@
+{
+  "name": "Shan  - Rework ",
+  "description": "A comprehensive workflow and production planner for Rex Industries, allowing for job creation, process tracking across departments, and administrative management of production processes and machines.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
